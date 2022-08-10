@@ -1453,8 +1453,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.Swinject-iOS";
 				PRODUCT_NAME = Swinject;
 				RUN_DOCUMENTATION_COMPILER = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1556,11 +1557,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.Swinject-iOS";
 				PRODUCT_NAME = Swinject;
 				RUN_DOCUMENTATION_COMPILER = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
